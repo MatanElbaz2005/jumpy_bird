@@ -9,6 +9,6 @@ public class logicScript : MonoBehaviour
     public void AddScore()
     {
         playerScore += 1;
-
+        scoreText.text = "Score: " + playerScore.ToString();
     }
 }
